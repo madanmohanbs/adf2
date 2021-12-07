@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "*",
+				"fileName": "2021-11-02_10h51_39.png",
 				"folderPath": "dir-a",
 				"container": "container-a"
 			}
