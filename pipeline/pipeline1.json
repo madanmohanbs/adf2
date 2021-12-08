@@ -48,12 +48,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"param-a": {
-				"type": "int",
-				"defaultValue": 2
-			}
-		},
 		"annotations": []
 	}
 }

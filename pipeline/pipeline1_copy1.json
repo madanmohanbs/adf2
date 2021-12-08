@@ -32,7 +32,11 @@
 							"type": "AzureBlobStorageWriteSettings"
 						}
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"dataIntegrationUnits": {
+						"value": "@pipeline().parameters.paramx",
+						"type": "Expression"
+					}
 				},
 				"inputs": [
 					{
@@ -49,9 +53,9 @@
 			}
 		],
 		"parameters": {
-			"param-a": {
+			"paramx": {
 				"type": "int",
-				"defaultValue": 2
+				"defaultValue": 1
 			}
 		},
 		"annotations": []
