@@ -1,0 +1,41 @@
+{
+	"name": "AzureDatabricksDeltaLakeDataset1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDatabricksDeltaLake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureDatabricksDeltaLakeDataset",
+		"typeProperties": {
+			"database": "default",
+			"table": "cloud_pricing_delta"
+		},
+		"schema": [
+			{
+				"name": "vCPU",
+				"type": "string"
+			},
+			{
+				"name": "Mem.",
+				"type": "string"
+			},
+			{
+				"name": "AWS",
+				"type": "string"
+			},
+			{
+				"name": "Azure",
+				"type": "string"
+			},
+			{
+				"name": "GCP",
+				"type": "string"
+			},
+			{
+				"name": "Type",
+				"type": "string"
+			}
+		]
+	}
+}
