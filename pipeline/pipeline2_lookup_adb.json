@@ -1,5 +1,5 @@
 {
-	"name": "pipeline2",
+	"name": "pipeline2_lookup_adb",
 	"properties": {
 		"activities": [
 			{
@@ -41,7 +41,7 @@
 				"typeProperties": {
 					"variableName": "data",
 					"value": {
-						"value": "@activity('Lookup1').output",
+						"value": "@activity('Lookup1').output.value",
 						"type": "Expression"
 					}
 				}
@@ -49,7 +49,7 @@
 		],
 		"variables": {
 			"data": {
-				"type": "String"
+				"type": "Array"
 			}
 		},
 		"annotations": []
